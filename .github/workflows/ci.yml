@@ -10,9 +10,7 @@ on:
 jobs:
   autogreen:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: read/write
+
   
     steps:
       - name: Clone repository
